@@ -1,0 +1,29 @@
+{
+  "name": "loginAnimation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android-windows": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-maps": "^0.23.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-simple-toast": "0.0.8",
+    "react-native-vector-icons": "^6.2.0",
+    "tcomb-form-native": "^0.6.20"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
